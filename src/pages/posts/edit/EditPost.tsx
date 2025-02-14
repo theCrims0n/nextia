@@ -45,7 +45,7 @@ export const EditPost = () => {
                     <Spinner size={50} />
                     :
 
-                    <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col justify-start items-start box-shadow-card md:w-[800px] md:h-[600px] w-[500px] h-[400px] space-y-2">
+                    <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col justify-start items-start box-shadow-card md:w-[800px] md:h-[600px] w-[500px] h-[400px] space-y-2 fade-in">
                         <label htmlFor="userId" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Usuario</label>
                         <select defaultValue={data.userId} {...register('userId', { required: true })} className="border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 bg-zinc-100">
                             {users?.map((user: any, index: number) => {

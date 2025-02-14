@@ -11,7 +11,7 @@ type User = {
 export const TableUsers = ({ users }: User) => {
     return (
 
-        <div className="relative overflow-x-auto shadow-md sm:rounded-lg box-shadow-card">
+        <div className="relative overflow-x-auto shadow-md sm:rounded-lg box-shadow-card fade-in">
             <table className=" text-sm text-left rtl:text-right">
                 <thead className="text-xs text-gray-700 uppercase bg-zinc-950 text-white">
                     <tr>

@@ -11,7 +11,7 @@ export const NavBar = () => {
 
 
     return (
-        <div className="fixed top-0 z-40 justity-center items-center md:w-screen ">
+        <div className="fixed top-0 z-40 justity-center items-center md:w-screen fade-in">
             <div className="block md:hidden pt-1 ">
                 <button className={clsx(isSideMenuOpen && 'hidden')} onClick={() => openSideMenu()}>
                     <Bars3Icon className="size-6 text-zinc-300 " />

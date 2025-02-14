@@ -24,7 +24,7 @@ export const Login = () => {
 
     return (
 
-        <div className="flex min-h-full flex-col justify-center items-center px-6 py-12 lg:px-8 md:w-[100svh] md:h-[80svh]">
+        <div className="flex min-h-full flex-col justify-center items-center px-6 py-12 lg:px-8  md:h-[80svh] fade-in">
             <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm ">
                 <form onSubmit={handleSubmit(onSubmit)} className="space-y-6 " action="#" method="POST">
                     <div>

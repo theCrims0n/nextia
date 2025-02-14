@@ -12,7 +12,7 @@ type User = {
 
 export const Form = ({ user }: User) => {
     return (
-        <div className=" md:w-[800px] w-full mx-auto box-shadow-card">
+        <div className=" md:w-[800px] w-full mx-auto box-shadow-card fade-in">
             <div className="flex justify-center items-start grid grid-cols-1 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 gap-2">
                 <div className="mb-5">
                     <label htmlFor="username" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white text-start">Nombre de usuario</label>

@@ -39,7 +39,7 @@ export const Pagination = ({ totalPages, page }: Props) => {
     }
 
     return (
-        <div className="flex justify-center items-center space-x-1 mt-10 mb-32 pr-2">
+        <div className="flex justify-center items-center space-x-1 mt-10 mb-32 pr-2 fade-in">
             <Link to={createPageUrl(currentPage - 1)} className="md:w-24 w-16 rounded-md border border-zinc-300 py-2 px-3 text-center text-xs lg:text-sm transition-all shadow-sm hover:shadow-lg text-zinc-600 hover:text-white hover:bg-zinc-800 hover:border-zinc-800 focus:text-white focus:bg-zinc-800 focus:border-zinc-800 active:border-zinc-800 active:text-white active:bg-zinc-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none ml-2">
                 Anterior
             </Link>

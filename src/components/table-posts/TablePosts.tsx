@@ -11,7 +11,7 @@ type Post = {
 export const TablePosts = ({ posts }: Post) => {
     return (
 
-        <div className="relative overflow-x-auto shadow-md sm:rounded-lg box-shadow-card ">
+        <div className="relative overflow-x-auto shadow-md sm:rounded-lg box-shadow-card fade-in">
             <table className=" text-sm text-left rtl:text-right lg:h-[75svh] lg:w-[100svh]">
                 <thead className="text-xs text-gray-700 uppercase bg-zinc-950 text-white h-12">
                     <tr>

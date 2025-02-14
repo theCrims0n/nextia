@@ -6,7 +6,7 @@ export const Counter = () => {
     const { count, counteradd, countersubtract } = useCounter()
 
     return (
-            <div className="flex flex-col justicy-center items-center space-y-2 box-shadow-card">
+            <div className="flex flex-col justicy-center items-center space-y-2 box-shadow-card fade-in">
                 <span className="md:text-[100px] text-[80px]">{count}</span>
                 <div className="flex md:flex-row flex-col gap-3">
                     <button className="flex flex-row md:w-[200px] w-full justify-center items-center gap-4 btn-primary" onClick={counteradd}>
